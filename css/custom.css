@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#container {
+    background-color: hsl(185, 75%, 39%);
+    text-align: center;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: hsl(227, 10%, 46%);  
+}
+
+#card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 330px;
+    height: 374px;
+}
+
+#card-header {
+    background-image: url("../images/bg-pattern-card.svg");
+    height: 140px;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 55px;
+}
+
+#card-image {
+    border-radius: 50%;
+    position: relative;
+    top: 80px;
+    left: 110px;
+    background-color: #ffffff;
+    height: 110px;
+    width: 110px;
+}
+
+#card-image img {
+    border-radius: 50%;
+    padding-top: 6px;
+}
+
+h1, h2 {
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+}
+
+.small {
+    color: hsl(227, 10%, 46%); 
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#card-footer {
+    border-top: 1px solid hsl(227, 10%, 46%);
+}
+
+#card-footer ul {
+    list-style: none;
+    padding: 0;
+    margin:  0;
+    flex-direction: row;
+    display: flex;
+}
+
+#card-footer ul li {
+    flex: 1;  
+}

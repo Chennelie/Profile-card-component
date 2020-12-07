@@ -16,11 +16,23 @@ body {
     color: hsl(227, 10%, 46%);  
 }
 
+/* #container::before {
+    content: url(../images/bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    position: absolute;
+    bottom: 204px;
+    left: -423px;
+} */
+
 #card {
     background-color: #ffffff;
     border-radius: 20px;
     width: 330px;
     height: 374px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
 }
 
 #card-header {
@@ -28,6 +40,10 @@ body {
     height: 140px;
     border-radius: 20px 20px 0 0;
     margin-bottom: 55px;
+}
+
+#card-body {
+    flex: 2;
 }
 
 #card-image {
@@ -48,6 +64,13 @@ body {
 h1, h2 {
     font-size: 18px;
     color: hsl(229, 23%, 23%);
+    padding: 8px;
+}
+
+#age {
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+    padding-left: 5px;
 }
 
 .small {
